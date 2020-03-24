@@ -10,13 +10,13 @@
         android:id="@+id/iv_bakso"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:scaleType="centerCrop"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/bakso"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
@@ -62,6 +62,8 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="20dp"
         android:text="Nasi Goreng"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/iv_nasi"
         app:layout_constraintTop_toTopOf="@+id/iv_nasi" />
 
@@ -73,6 +75,8 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
         android:text="Sate Kambing"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/iv_sate"
         app:layout_constraintTop_toTopOf="@+id/iv_sate" />
 
@@ -84,6 +88,9 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
         android:text="Bakso Malang"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/iv_bakso"
         app:layout_constraintTop_toTopOf="@+id/iv_bakso" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
